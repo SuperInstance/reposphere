@@ -1,0 +1,13 @@
+[package]
+name = "reposphere"
+version = "0.1.0"
+edition = "2021"
+description = "Self-hosting repository as conscious entity — REPOSPHERE.md as executable brain"
+license = "MIT"
+keywords = ["reposphere", "self-hosting", "repository", "autonomous"]
+categories = ["development-tools", "data-structures"]
+repository = "https://github.com/SuperInstance/reposphere"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
